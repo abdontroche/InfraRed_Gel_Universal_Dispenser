@@ -1,0 +1,250 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_R_POT_TRIM_US
+#
+DEF Device_R_POT_TRIM_US RV 0 40 Y N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "Device_R_POT_TRIM_US" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 2 0 1 0 60 30 60 -30 N
+P 2 0 1 0 100 0 60 0 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Sensor_Optical_SFH203FA
+#
+DEF Sensor_Optical_SFH203FA D 0 20 N N 1 F N
+F0 "D" 20 70 50 H V L CNN
+F1 "Sensor_Optical_SFH203FA" -40 -110 50 H V C CNN
+F2 "LED_THT:LED_D5.0mm_IRGrey" 0 175 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+ALIAS SFH203FA
+$FPLIST
+ LED*D5.0mm*IRGrey*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -100 0 0 0 N
+P 2 0 1 6 -100 50 -100 -50 N
+P 2 0 1 0 -80 70 -60 70 N
+P 2 0 1 0 0 -50 0 50 N
+P 3 0 1 0 -20 130 -80 70 -80 90 N
+P 3 0 1 0 0 50 -100 0 0 -50 N
+P 5 0 1 0 30 130 -30 70 -30 90 -30 70 -10 70 N
+X K 1 -200 0 100 R 50 50 1 1 P
+X A 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SparkFun-LED_LED5MM-KIT
+#
+DEF SparkFun-LED_LED5MM-KIT D 0 40 N N 1 L N
+F0 "D" -50 -250 45 V V L BNN
+F1 "SparkFun-LED_LED5MM-KIT" 150 -250 45 V V L BNN
+F2 "LED_5MM-KIT" -200 0 20 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "XXX-00000" -250 0 60 V V C CNN
+$FPLIST
+ *LED_5MM-KIT*
+$ENDFPLIST
+DRAW
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 -50 0 N
+P 2 1 0 0 50 0 0 -100 N
+P 6 1 1 0 -135 -85 -120 -50 -120 -50 -100 -70 -100 -70 -135 -85 F
+P 6 1 1 0 -130 -130 -115 -95 -115 -95 -95 -115 -95 -115 -130 -130 F
+X A A 0 100 100 D 40 40 1 1 P
+X C K 0 -200 100 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SparkFun-Resistors_RESISTORAXIAL-0.3
+#
+DEF SparkFun-Resistors_RESISTORAXIAL-0.3 R 0 40 N N 1 L N
+F0 "R" -200 50 45 H V L BNN
+F1 "SparkFun-Resistors_RESISTORAXIAL-0.3" -200 -150 45 H V L BNN
+F2 "AXIAL-0.3" 0 150 20 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 " " 0 200 60 H V C CNN
+$FPLIST
+ *AXIAL-0.3*
+$ENDFPLIST
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 P$1 -200 0 100 R 40 40 1 1 P
+X 2 P$2 200 0 100 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Diodes-Rectifiers-Single_1N4007-T_NRND
+#
+DEF dk_Diodes-Rectifiers-Single_1N4007-T_NRND D 0 0 N N 1 F N
+F0 "D" 0 100 60 H V C CNN
+F1 "dk_Diodes-Rectifiers-Single_1N4007-T_NRND" 0 -100 60 H V C CNN
+F2 "digikey-footprints:DO-41" 200 200 60 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/ds28002.pdf" 200 300 60 H I L CNN
+F4 "1N4007DICT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "1N4007-T" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Diodes - Rectifiers - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.diodes.com/assets/Datasheets/ds28002.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "DIODE GEN PURP 1KV 1A DO41" 200 1000 60 H I L CNN "Description"
+F11 "Diodes Incorporated" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Not For New Designs" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 50 50 50 -50 N
+P 4 0 1 0 -50 50 -50 -50 50 0 -50 50 F
+X ~ A -200 0 150 R 50 50 1 1 P
+X ~ K 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps_LM358P
+#
+DEF dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps_LM358P U 0 0 Y Y 2 L N
+F0 "U" -300 300 60 H V C CNN
+F1 "dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps_LM358P" 100 -200 60 H V L CNN
+F2 "digikey-footprints:DIP-8_W7.62mm" 200 200 60 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm358" 200 300 60 H I L CNN
+F4 "296-1395-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "LM358P" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" 200 700 60 H I L CNN "Family"
+F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm358" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/texas-instruments/LM358P/296-1395-5-ND/277042" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC OPAMP GP 2 CIRCUIT 8DIP" 200 1000 60 H I L CNN "Description"
+F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+T 0 0 0 60 0 1 0 A Normal 0 C C
+T 0 0 0 60 0 2 0 B Normal 0 C C
+P 2 0 1 0 -150 -100 -100 -100 N
+P 2 0 1 0 -150 100 -100 100 N
+P 2 0 1 0 -125 -75 -125 -125 N
+P 4 0 1 0 -200 200 -200 -200 200 0 -200 200 f
+X ~ 1 300 0 100 L 50 50 1 1 O
+X ~ 2 -300 100 100 R 50 50 1 1 I
+X ~ 3 -300 -100 100 R 50 50 1 1 I
+X GND 4 0 -200 100 U 50 50 1 1 W
+X VCC 8 0 200 100 D 50 50 1 1 W
+X GND 4 0 -200 100 U 50 50 2 1 W
+X ~ 5 -300 -100 100 R 50 50 2 1 I
+X ~ 6 -300 100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 O
+X VCC 8 0 200 100 D 50 50 2 1 W
+ENDDRAW
+ENDDEF
+#
+# dk_Terminal-Blocks-Wire-to-Board_OSTTC020162
+#
+DEF dk_Terminal-Blocks-Wire-to-Board_OSTTC020162 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "dk_Terminal-Blocks-Wire-to-Board_OSTTC020162" 50 -100 50 H V C CNN
+F2 "digikey-footprints:Term_Block_1x2_P5mm" 200 200 60 H I L CNN
+F3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" 200 300 60 H I L CNN
+F4 "ED2600-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "OSTTC020162" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Terminal Blocks - Wire to Board" 200 700 60 H I L CNN "Family"
+F8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-shore-technology-inc/OSTTC020162/ED2600-ND/614549" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TERM BLK 2POS SIDE ENTRY 5MM PCB" 200 1000 60 H I L CNN "Description"
+F11 "On Shore Technology Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 25 1 1 0 N
+C 100 0 25 1 1 0 N
+S -50 100 150 -50 1 1 0 f
+P 2 1 1 0 0 25 0 -25 N
+P 2 1 1 0 25 0 -25 0 N
+P 2 1 1 0 75 0 125 0 N
+P 2 1 1 0 100 25 100 -25 N
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Transistors-Bipolar-BJT-Single_TIP120
+#
+DEF dk_Transistors-Bipolar-BJT-Single_TIP120 Q 0 0 Y Y 1 F N
+F0 "Q" -126 166 60 H V L CNN
+F1 "dk_Transistors-Bipolar-BJT-Single_TIP120" 206 0 60 V V C CNN
+F2 "digikey-footprints:TO-220-3" 200 200 60 H I L CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f9/ed/f5/44/26/b9/43/a4/CD00000911.pdf/files/CD00000911.pdf/jcr:content/translations/en.CD00000911.pdf" 200 300 60 H I L CNN
+F4 "497-2539-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "TIP120" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - Bipolar (BJT) - Single" 200 700 60 H I L CNN "Family"
+F8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f9/ed/f5/44/26/b9/43/a4/CD00000911.pdf/files/CD00000911.pdf/jcr:content/translations/en.CD00000911.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/stmicroelectronics/TIP120/497-2539-5-ND/603564" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TRANS NPN DARL 60V 5A TO-220" 200 1000 60 H I L CNN "Description"
+F11 "STMicroelectronics" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 128 0 1 0 f
+P 2 0 1 0 -150 0 -100 0 N
+P 2 0 1 0 -140 0 0 0 N
+P 2 0 1 0 0 -50 100 -100 N
+P 2 0 1 0 0 50 100 100 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 60 -50 80 -90 40 -100 60 -50 F
+X B 1 -200 0 100 R 50 50 1 1 I
+X C 2 100 200 100 D 50 50 1 1 P
+X E 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
