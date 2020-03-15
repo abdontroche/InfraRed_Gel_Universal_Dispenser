@@ -29,6 +29,10 @@ The components are chosen by the existence on the Paraguay electronics component
 
 ![Image](InfraRedGelUniversalDispenser/3D-MODEL-IRUGD02.png)
 
+## Bill Of Materials
+This is the file of the [BOM](InfraRedGelUniversalDispenser/bom/ibom.html)
+![Image](InfraRedGelUniversalDispenser/3D-MODEL-IRUGD04.png)
+
 ## The 3D models
 
 You will find the board 3D model in the STP format in order you can choose the software you want to develope the mechanism with.
@@ -38,5 +42,19 @@ You will find the board 3D model in the STP format in order you can choose the s
 
 ### Desing the mechanism using [Fusion 360](https://www.autodesk.com/products/fusion-360/students-teachers-educators)
 
+#### Electronic board
+
 ![Image](InfraRedGelUniversalDispenser/3D-MODEL-IRUGD01.png)
+
+#### [Dispenser mecanism](InfraRedGelUniversalDispenser/CustomizedSolenoid v5.step)
+
+![Image](InfraRedGelUniversalDispenser/3D-MODEL-IRUGD05.png)
+
+#### [Gel alcohol bottle or soap bottle dispenser](https://grabcad.com/library/soap-dispenser-5)
+
+![Image](InfraRedGelUniversalDispenser/3D-MODEL-IRUGD06.png)
+
+#### Fisrt assembly
+
+![Image](InfraRedGelUniversalDispenser/3D-MODEL-IRUGD07.png)
 
