@@ -58,3 +58,10 @@ You will find the board 3D model in the STP format in order you can choose the s
 
 ![Image](InfraRedGelUniversalDispenser/3D-MODEL-IRUGD07.png)
 
+#### Second assembly
+
+File of the prototipe "InfraRedGelUniversalDispenserDevice v17.step"
+
+![Image](InfraRedGelUniversalDispenser/3D-MODEL-IRUGD08.png)
+
+![Image](InfraRedGelUniversalDispenser/3D-MODEL-IRUGD09.png)
