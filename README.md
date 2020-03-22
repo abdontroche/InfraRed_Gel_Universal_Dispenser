@@ -1,4 +1,3 @@
-InfraRed_Gel_Universal_Dispenser
 =================================
 This project pretends to be a open source device that could help people fighting against the COVID-19.
 # Who are we?
@@ -65,3 +64,27 @@ File of the prototipe "InfraRedGelUniversalDispenserDevice v17.step"
 ![Image](InfraRedGelUniversalDispenser/3D-MODEL-IRUGD08.png)
 
 ![Image](InfraRedGelUniversalDispenser/3D-MODEL-IRUGD09.png)
+
+# This is another version of the board
+## The schmematic
+
+![Image](Phothoresistor_Gel_Universal_Dispenser/rev01.png)
+
+## The board
+
+![Image](Phothoresistor_Gel_Universal_Dispenser/rev00.png)
+
+## Bill Of Materials
+
+## The 3D models
+
+You will find the board 3D model in the STP format in order you can choose the software you want to develope the mechanism with.
+
+![Image](Phothoresistor_Gel_Universal_Dispenser/rev02.png)
+![Image](Phothoresistor_Gel_Universal_Dispenser/rev03.png)
+
+### Desing the mechanism using [Fusion 360](https://www.autodesk.com/products/fusion-360/students-teachers-educators)
+
+#### Electronic board
+
+![Image](Phothoresistor_Gel_Universal_Dispenser/rev04.png)
