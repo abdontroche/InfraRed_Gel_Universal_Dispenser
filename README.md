@@ -16,7 +16,7 @@ We want to use this board and use to dispense gel alcohol adapting it on differe
 
 Fist to all we will find the board.
 
-The Board was designed using the software [KiCad 5.1.2](https://www.kicad-pcb.org)
+The Board was designed using the software [KiCad 5.1.2](https://www.kicad.org)
 
 The components are chosen by the existence on the Paraguay electronics componentes market.
 
